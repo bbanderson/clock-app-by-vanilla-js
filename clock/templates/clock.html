@@ -1,0 +1,40 @@
+<!-- {% load static %} -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css?after">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <title>CLOCK</title>
+</head>
+<body>
+    <div class="center">
+    <h1>Billionaire</h1>
+    <h2 class="js-clock"></h2>
+
+    <form method="POST" formaction="a" class="js-greetForm greetForm">
+        <input class = "greetInput" type="text" placeholder="What's your name?">
+    </form>
+
+    <div class="js-greetContainer greetContainer">
+        <h3 class="js-greet"></h3>
+        <button class="js-changeName changeName">Change Name</button>
+    </div>
+    <br/>
+    <header>
+    <form formaction = "b" class="js-todoForm todoForm">
+        <h4 class="js-todoTitle todoTitle">Todo List</h4>
+        <input class="todoInput" type="text" placeholder="Hit what you want to master now!">
+    </form>
+    </header>
+    <ul></ul>
+</div>
+    <script src="../static/js/clock.js"></script>
+    <script src="../static/js/greeting.js?after1"></script>
+    <script src="../static/js/todo.js?after1"></script>
+    <script src="../static/js/image.js"></script>
+    <script src="../static/js/location.js"></script>
+</body>
+</html>

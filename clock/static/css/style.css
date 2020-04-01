@@ -1,0 +1,101 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+body {
+    /* background-color: yellow; */
+    animation: fadeIn .5s linear;
+    height: 100%;
+    /* position: relative; */
+    /* position: relative; */
+}
+
+.center {
+    position: relative;
+    /* margin: auto; */
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    text-align:center
+}
+
+h1 {
+    /* position: absolute; */
+    /* display: inline; */
+    margin: 0;
+    /* justify-items: center; */
+    font-size: 10em;
+    font-family: 'Nanum Pen Script', cursive;
+    /* color: whitesmoke; */
+    text-decoration-color: yellowgreen;
+    padding: 0;
+    /* align-items: center; */
+}
+
+h2 {
+    margin: 0;
+    font-size: 5em;
+    font-family: 'Nanum Pen Script', cursive;
+    color: rgb(218, 29, 211);
+}
+
+h3 {
+    font-size: 3em;
+    font-family: 'Nanum Pen Script', cursive;
+    display: inline;
+}
+
+h4 {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 2em;
+}
+
+.greetForm,
+.changeName,
+.todoTitle {
+    display: none;
+}
+
+.showing {
+    display: block;
+    animation: fadeIn .5s linear;
+}
+
+header {
+    /* position: absolute; */
+    z-index: -1;
+    animation: fadeIn .5s linear;
+}
+
+input {
+    font-family: 'Nanum Pen Script', cursive;
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+.bgimg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn .5s linear;
+}
+
+.listColor {
+    color: yellow;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 5rem;
+}
+
+.changeName {
+    animation: fadeIn .5s linear;
+}
